@@ -1,0 +1,128 @@
+@media screen and (width:1920px)
+{
+			body {
+				
+			  background-image:url(../Image/backgroundbleachv5.jpg);
+ 			  background-size: cover top left right;
+			  background-attachment: local,scroll;
+			  margin: 0;
+			  width: 100%;
+			  height: 100%;
+			  background-repeat: no-repeat;
+			}
+			
+			#BlocPrincipal {
+	
+			width: 60%;
+			margin-left: auto;
+			margin-right: auto;
+}
+}
+
+@media screen and (max-width:800px) {
+	
+	#Bloc4Films {
+	
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+
+	
+}  
+	
+}
+
+h1{
+	
+	color: red;
+	font-size: 3em;
+	text-align: center;
+	
+}
+
+
+p ,ul{
+	font-size: 1.6em;
+	
+}
+
+.BleachTome {
+	
+ 	float:left;
+	width: 200px;
+	height: 308px;
+	margin-left: 30px;
+}
+
+.DescriptifBleach {
+	
+  width: 100%;
+  text-align: justify;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/* #BlocPrincipal {
+	
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+} */
+
+ul {
+  list-style-type: none;
+}
+
+#Bloc4Films {
+	
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	
+
+	
+}
+
+.element {
+	
+	display:;
+	width: 40%;
+	margin: auto;
+	text-align: center;
+	
+	
+}
+
+.element img {
+	display:flex;
+	float: left;
+	height: 300px;
+	margin-right:5px;
+	
+}
+
+
+#petitTexte {
+	font-size:0.8em;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	margin-bottom:20px;
+}
+
+td {
+	border: 1px solid black;
+	text-align: center;
+}
+
+table {
+	margin:auto;
+	border-collapse: collapse;
+}
+
+
+
