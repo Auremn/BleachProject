@@ -1,0 +1,125 @@
+body {
+	background-image: url(../Image/BTWWP2.jpg);
+	background-repeat: no-repeat;
+	background-size: 1920px 1080px;
+	background-attachment: fixed;
+
+}
+
+#BlocPrincipal {
+	
+	width: 65%;
+/*	background-color: rgb(250,250,250);*/
+	background: url(../Image/gris.jpg);
+	back
+	background-size: cover;	
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:1080px;
+}
+
+
+h1{
+	
+	color: red;
+	font-size: 3em;
+	text-align: center;
+	font-family: MaSuperPolice;
+	
+}
+
+section p {
+
+  width: 80%;
+  text-align: justify;
+  margin-left:auto;
+  margin-right:auto;
+  font-size: 1.5em
+	
+}
+
+section img {
+
+	display: flex;
+	float: left;
+	padding-right: 10px;
+
+}
+
+section {
+
+
+/*	background-color: rgb(250,250,250);*/
+	flex-direction: column;
+	justify-content: flex-start;
+	display: flex;
+	margin-bottom:30px;
+
+
+}
+
+#video{
+	
+	text-align: center;
+	display: block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+
+}
+
+nav li
+{
+    margin-right: 30px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#menu {
+  position: fixed;
+  margin-right: 50px;
+  right: 60px;
+  top: 50px;
+  width: 8em;
+  margin-top: -2.5em;
+
+}
+
+@font-face {
+    font-family: 'MaSuperPolice';
+    src: url('../Police/Diagramm-Regular.ttf');
+}
+
+
+.Avis {
+
+	display: flex;
+
+}
+
+
+#ppAvis {
+
+	width: 100px;
+	float: left;
+}
